@@ -1,0 +1,26 @@
+/* Add the following styles to fix the li items in the pagination */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .pagination-item {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  .pagination-link {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pagination-link.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
